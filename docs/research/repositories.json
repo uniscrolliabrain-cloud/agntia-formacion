@@ -1,0 +1,62 @@
+{
+  "observed_on": "2026-11-13",
+  "reference_is_production_pin": false,
+  "repositories": [
+    {
+      "repository": "moodle/moodle",
+      "reference_sha": "afbcc55fa1bd80dcdd887b8965dd8c28c0f3bbda",
+      "branch": "main",
+      "metadata_license": "GPL-3.0",
+      "read_path": "README.md",
+      "read_blob_sha": "5a304b349ffdb55cd661df92eac22c8c47092f6a",
+      "scope": "Metadata and first90–100 README lines; not code audit/install/runtime verification",
+      "license_review": null,
+      "runtime_verified": false
+    },
+    {
+      "repository": "openedx/openedx-platform",
+      "reference_sha": "32e2f7d8ec6a3bfff1f4695fc2360f71ff52f1a6",
+      "branch": "master",
+      "metadata_license": "AGPL-3.0",
+      "read_path": "README.rst",
+      "read_blob_sha": "380ffa700237809eca6e60a07779d153a6ea133d",
+      "scope": "Metadata and first90–100 README lines; not code audit/install/runtime verification",
+      "license_review": null,
+      "runtime_verified": false
+    },
+    {
+      "repository": "h5p/h5p-php-library",
+      "reference_sha": "2d7f937a03c925e1332651b16ac6e56ac7544431",
+      "branch": "master",
+      "metadata_license": "GPL-3.0",
+      "read_path": "README.txt",
+      "read_blob_sha": "22cf79866c2e4ef7aec1ee0b25c79cd643ecea06",
+      "scope": "Metadata and first90–100 README lines; not code audit/install/runtime verification",
+      "license_review": null,
+      "runtime_verified": false
+    },
+    {
+      "repository": "adaptlearning/adapt_framework",
+      "reference_sha": "f0a705d9cd24d915acef6eeb7b1f6da4ed5e4131",
+      "branch": "master",
+      "metadata_license": "GPL-3.0",
+      "read_path": "README.md",
+      "read_blob_sha": "d4ea3e3b03755a47efc359b4b9bbf6daf48b3b08",
+      "scope": "Metadata and first90–100 README lines; not code audit/install/runtime verification",
+      "license_review": null,
+      "runtime_verified": false
+    },
+    {
+      "repository": "LearningLocker/learninglocker",
+      "reference_sha": "5fec948a823e372e740df521aa3684c8df1dcba7",
+      "branch": "master",
+      "metadata_license": "GPL-3.0",
+      "read_path": "README.md",
+      "read_blob_sha": "69f9e2c75a745aac4341c4ec318c6e16e5eb69e5",
+      "scope": "Metadata and first90–100 README lines; not code audit/install/runtime verification",
+      "license_review": null,
+      "runtime_verified": false
+    }
+  ],
+  "license_notes": "Moodle/Adapt/LearningLocker/H5P library GPL-3.0 según metadatos, pero módulos y contenido H5P tienen licencias propias. Open edX redirige a openedx/openedx-platform, AGPL-3.0 según repo; no instalar rama master como release. LTI/xAPI son contratos a verificar; la página ADL xAPI no respondió y ese gate queda pendiente."
+}
