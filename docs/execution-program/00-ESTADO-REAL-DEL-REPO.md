@@ -1,0 +1,3 @@
+# Estado real — Agntia Formación
+
+Inspección GitHub main 2026-11-14: 76 entradas, documentación, investigación, contratos, manifest de 42 campañas, release y runbooks; no app ni tests de implementación. La rama previa `docs/factory-prep-v1-20261113` contiene plantillas de implementación y factory, pero esta rama nueva **deriva de main**, que ya contiene las 42 campañas originales. 294 tareas/84 gates NOT_STARTED/NOT_EXECUTED. Referencia padre histórica en manifest: cotejar SHA actual al ejecutar. Freebuff debe congelar SHA, diff, stack, licencias, proveedores y permisos; no confundir rutas propuestas con código existente.
